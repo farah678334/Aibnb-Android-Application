@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pr1.MainActivity">
+    <item
+        android:id="@+id/action_favoriets"
+        android:orderInCategory="100"
+        android:title="Wishlist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_signup"
+        android:orderInCategory="100"
+        android:title="creat account"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_myreservations"
+        android:orderInCategory="100"
+        android:title="My reservations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

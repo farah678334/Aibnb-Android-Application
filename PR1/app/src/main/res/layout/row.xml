@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:layout_margin="6dp">
+            <!-- Wrap content in a vertical LinearLayout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+            <ImageButton
+                android:id="@+id/btnApartment"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:src="@drawable/ap1"
+                android:scaleType="centerCrop"
+
+                android:background="@null"
+                />
+            <TextView
+                android:id="@+id/tvApartmentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textSize="18sp"
+                android:text="Apartment Name"
+                android:textAlignment="center"
+                android:textStyle="italic"/>
+            <ToggleButton
+                android:id="@+id/togglebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textOn="Favorites"
+                android:textOff="Not Favorite"
+                />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>
