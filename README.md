@@ -61,8 +61,8 @@ Developed as a university project with a partner.
 ### Backend and Database Setup
 
 1. Install XAMPP and start Apache and MySQL.
-2. Open phpMyAdmin, create a new database named `apartment1_db1`, and import `database/airbnb_database.sql` into it.
-3. Copy the contents of the `backend` folder into `C:\xampp\htdocs\`.
+2. Open phpMyAdmin, create a new database named `apartment1_db1`, and import `database/apartment1_db1.sql` into it.
+3. Copy the `projectmb` folder into `C:\xampp\htdocs\`.
 
 ### Run the App
 
