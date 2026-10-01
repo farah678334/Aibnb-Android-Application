@@ -6,15 +6,19 @@ A native Android application inspired by Airbnb, developed using Java and Androi
 
 This project was developed as a university project as part of my Computer Engineering studies.
 
-The application provides an Android interface for browsing property listings and includes user registration and backend-driven data.
+The application lets users browse apartment listings, save favorites, and book stays, with data loaded from a backend.
 
 ## Features
 
-- User registration
-- Dynamic property listings
-- Backend integration
-- Property browsing
-- Android user interface
+- User registration and login
+- Dynamic apartment listings loaded from the backend
+- Apartment details page with photo gallery, description, price, and amenities
+- Full "What this place offers" amenities list, grouped by category
+- Wishlist: mark apartments as favorite
+- Reservation form with check-in/check-out dates, number of guests, extra services, and payment method
+- Automatic total price calculation
+- "My Reservations" page with the option to cancel a reservation
+- Menu with Wishlist, My Reservations, and Logout
 
 ## Technologies
 
@@ -36,7 +40,20 @@ Developed as a university project with a partner.
 
 ## Screenshots
 
-Screenshots of the application will be added soon.
+### Home and Menu
+<img src="screenshots/home.png" width="220"> <img src="screenshots/menu.png" width="220">
+
+### Sign Up and Login
+<img src="screenshots/signup.png" width="220"> <img src="screenshots/login.png" width="220">
+
+### Apartment Details
+<img src="screenshots/details1.png" width="220"> <img src="screenshots/details2.png" width="220"> <img src="screenshots/gallery.png" width="220">
+
+### Amenities and Reservation
+<img src="screenshots/amenities.png" width="220"> <img src="screenshots/reserve.png" width="220">
+
+### Wishlist and My Reservations
+<img src="screenshots/wishlist.png" width="220"> <img src="screenshots/reservations.png" width="220">
 
 ## Getting Started
 
