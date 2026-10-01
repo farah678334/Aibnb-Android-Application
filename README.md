@@ -25,7 +25,8 @@ The application lets users browse apartment listings, save favorites, and book s
 - Java
 - Android Studio
 - XML
-- Backend integration
+- PHP
+- MySQL
 - Git/GitHub
 
 ## My Contribution
@@ -57,10 +58,18 @@ Developed as a university project with a partner.
 
 ## Getting Started
 
+### Backend and Database Setup
+
+1. Install XAMPP and start Apache and MySQL.
+2. Open phpMyAdmin, create a new database named `apartment1_db1`, and import `database/airbnb_database.sql` into it.
+3. Copy the contents of the `backend` folder into `C:\xampp\htdocs\`.
+
+### Run the App
+
 1. Clone the repository.
 2. Open the project in Android Studio.
 3. Allow Gradle to sync.
-4. Build and run the application on an Android emulator or Android device.
+4. Build and run the application on an Android emulator or Android device. If you use the emulator, the server address in the code should be `10.0.2.2`.
 
 ## Author
 
